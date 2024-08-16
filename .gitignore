@@ -128,3 +128,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+.idea/material_theme_project_new.xml
+
+*.iml
+
+.idea/misc.xml
+
+*.xml
