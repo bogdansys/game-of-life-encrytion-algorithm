@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import EncryptionForm from '../components/EncryptionForm';
 import DecryptionForm from '../components/DecryptionForm';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Button } from "@/components/ui/button"
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
-import { FileDown, Info, Linkedin, Github, BarChart2 } from "lucide-react"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { FileDown, Info, Linkedin, Github, BarChart2 } from "lucide-react";
 
 const Index = () => {
   const [sampleText, setSampleText] = useState('');
@@ -25,8 +25,8 @@ const Index = () => {
         <div className="flex justify-center space-x-4 mb-4">
           <Button onClick={generateSampleInput} variant="outline">Generate Sample Input</Button>
           <Button asChild>
-            <a href="/LifeEncryption.pdf" download>
-              <FileDown className="mr-2 h-4 w-4" /> Download Report
+            <a href="https://drive.google.com/file/d/1oZsEHLxmmZXTQ6m93uHAKCCuKAWG3d2M/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <FileDown className="mr-2 h-4 w-4" /> View Report
             </a>
           </Button>
           <Button asChild variant="outline">
