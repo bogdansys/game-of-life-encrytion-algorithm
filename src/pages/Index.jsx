@@ -62,6 +62,11 @@ const Index = () => {
               <Github className="mr-2 h-4 w-4" /> GitHub
             </a>
           </Button>
+          <Button asChild variant="outline">
+            <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank" rel="noopener noreferrer">
+              <Info className="mr-2 h-4 w-4" /> Learn More
+            </a>
+          </Button>
         </div>
       </header>
       
